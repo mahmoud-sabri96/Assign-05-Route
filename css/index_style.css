@@ -744,6 +744,7 @@ button {
 @media (max-width:600px) {
     .portfolio .projects-holder {
         flex-direction: column;
+        gap: 0;
     }
 
     .portfolio .start,
@@ -762,7 +763,7 @@ button {
 
     .portfolio .projects-holder {
         flex-wrap: wrap;
-        gap: 15px;
+        gap: 0px;
     }
 
     .portfolio .start,
