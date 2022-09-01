@@ -212,6 +212,225 @@ button {
     margin-bottom: 10px;
 }
 
+.overlay .home-intro h2:after {
+    content: ' |';
+    animation: typingEffect 5s .3s both infinite linear;
+    color: #20c997;
+}
+
+
+
+@keyframes typingEffect {
+    0% {
+        content: ''
+    }
+
+    3% {
+        content: 'D|'
+    }
+
+    6% {
+        content: 'De|'
+    }
+
+    9% {
+        content: ' Des|'
+    }
+
+    12% {
+        content: ' Desi|'
+    }
+
+    12% {
+        content: ' Desig|'
+    }
+
+    14% {
+        content: ' Design|'
+    }
+
+    16% {
+        content: ' Designe|'
+    }
+
+    18% {
+        content: ' Designer.|'
+    }
+
+    27% {
+        content: ' Designe|'
+    }
+
+    29% {
+        content: ' Design|'
+    }
+
+    31% {
+        content: ' Desig|'
+    }
+
+    33% {
+        content: ' Desi|'
+    }
+
+    36% {
+        content: ' Des|'
+    }
+
+    39% {
+        content: ' De|'
+    }
+
+    42% {
+        content: 'D|'
+    }
+
+    45% {
+        content: ''
+    }
+
+    48% {
+        content: ' D|'
+    }
+
+    51% {
+        content: ' De|'
+    }
+
+    54% {
+        content: ' Dev|'
+    }
+
+    57% {
+        content: ' Deve|'
+    }
+
+    60% {
+        content: ' Devel|'
+    }
+
+    63% {
+        content: ' Develo|'
+    }
+
+    66% {
+        content: ' Develope|'
+    }
+
+    68% {
+        content: ' Developer.|'
+    }
+
+    79% {
+        content: ' Develope|'
+    }
+
+    81% {
+        content: ' Develop|'
+    }
+
+    83% {
+        content: ' Develo|'
+    }
+
+    86% {
+        content: ' Devel|'
+    }
+
+    89% {
+        content: ' Deve|'
+    }
+
+    92% {
+        content: ' Dev|'
+    }
+
+    95% {
+        content: ' De|'
+    }
+
+    98% {
+        content: ' D|'
+    }
+
+    100% {
+        content: ' '
+    }
+
+    /* 68% {
+        content: ' F|'
+    }
+
+    70% {
+        content: ' Fr|'
+    }
+
+    72% {
+        content: ' Fre|'
+    }
+
+    74% {
+        content: ' Free|'
+    }
+
+    76% {
+        content: ' Freel|'
+    }
+
+    78% {
+        content: ' Freela|'
+    }
+
+    80% {
+        content: ' Freelan|'
+    }
+
+    82% {
+        content: ' Freelans|'
+    }
+
+    84% {
+        content: ' Freelanse|'
+    }
+
+    86% {
+        content: ' Freelanser.|'
+    } */
+
+    /* 88% {
+        content: ' Freelans|'
+    }
+
+    90% {
+        content: ' Freela|'
+    }
+
+    92% {
+        content: ' Free|'
+    }
+
+    94% {
+        content: ' Fre|'
+    }
+
+    96% {
+        content: ' Fr|'
+    }
+
+    98% {
+        content: ' F|'
+    }
+
+    100% {
+        content: ' |'
+    } */
+
+
+}
+
+
+
+
 .overlay .home-intro p {
     color: #dee3e4;
     font-size: 20px;
